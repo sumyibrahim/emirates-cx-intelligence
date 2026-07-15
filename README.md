@@ -128,4 +128,7 @@ The notebook runs end-to-end on the included CSVs — no need to re-scrape. To p
 
 *If this was useful, please star the repo. Feedback and pull requests welcome.*
 
-✅ Power BI dashboard built covering all 8 findings across one page
+## Power BI Dashboard
+Built in Power BI Desktop. Download the `.pbix` file to open locally.
+**Screenshot preview:**
+![Dashboard](dashboard_screenshot.png)
