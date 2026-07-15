@@ -49,6 +49,13 @@ Premium Economy (+0.60) and First Class (+0.34) passengers are net positive. Eco
 | Dubai airport & delays | −0.33 | 8% |
 | **Baggage & customer service** | **−0.57** | **0%** |
 
+## Power BI Dashboard
+
+![Dashboard Preview](dashboard_screenshot.png)
+
+Full interactive single-page dashboard built in Power BI Desktop covering all 8 findings.
+
+📥 Download `emirates_cx_dashboard.pbix` to explore interactively.
 ---
 
 ## Project structure
@@ -65,7 +72,10 @@ emirates-cx-intelligence/
 │   └── scrape_consumeraffairs.py      # Supplementary scraper for ConsumerAffairs reviews
 │
 ├── emirates_cx_intelligence.ipynb     # Full analysis notebook (start here)
-│
+
+├── emirates_cx_dashboard.pbix     # Power BI dashboard file
+├── dashboard_screenshot.png       # Dashboard preview image
+
 ├── fig1_headline_metrics.png
 ├── fig2_subrating_gap.png
 ├── fig3_correlation.png
@@ -113,6 +123,7 @@ The notebook runs end-to-end on the included CSVs — no need to re-scrape. To p
 - **Sentiment:** VADER (`vaderSentiment`)
 - **Topic modeling:** TF-IDF + NMF (`scikit-learn`)
 - **Visualization:** `matplotlib`
+- **Dashboard:** Power BI Desktop (DAX measures, custom color theme)
 
 ---
 
