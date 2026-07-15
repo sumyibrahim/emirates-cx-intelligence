@@ -127,3 +127,4 @@ The notebook runs end-to-end on the included CSVs — no need to re-scrape. To p
 ---
 
 *If this was useful, please star the repo. Feedback and pull requests welcome.*
+✅ Power BI dashboard built covering all 8 findings across one page
